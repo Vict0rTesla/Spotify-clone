@@ -253,3 +253,70 @@ a {
   border-radius: 50%;
   margin-top: -6px;
 }
+
+.album {
+  display: flex;
+  align-items: center;
+}
+
+.album-discription {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.album-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.album-singer {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.album-img {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.control-icon {
+  margin-left: 1rem;
+}
+
+.control-volume {
+  margin-left: 1rem;
+  margin-left: 1rem;
+  appearance: none;
+  background-color: transparent;
+}
+
+.control-volume::-webkit-slider-runnable-track , .control-volume::-moz-range-track {
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 0.2rem;
+}
+
+.control-volume::-webkit-slider-thumb , .control-volume::-moz-range-thumb{
+  appearance: none;
+  height: 0.4rem;
+  width: 0.4rem;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: -6px;
+  border: none;
+}
+
+.control-fullscreen {
+  margin-right: 2rem;
+}
